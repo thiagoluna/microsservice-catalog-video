@@ -1,0 +1,19 @@
+{
+    "name": "thiagoluna/app-php-catalog-video",
+    "description": "App With PHP - Catalog Video",
+    "authors": [
+        {
+            "name": "Thiago Luna",
+            "email": "thiagoluna2@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5"
+    }
+}
